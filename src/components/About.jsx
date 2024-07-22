@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ABOUT_TEXT } from "../constants/index";
-import aboutImage from "../assets/about.png"; // Update the path to the actual image you want to use
+import aboutImage from "../assets/about.png"; 
 
 export default function About() {
   const [about, setAbout] = useState(null);
 
   useEffect(() => {
-    // Simulate fetching data by directly setting the about text from constants
+  
     setAbout({
       aboutText: ABOUT_TEXT,
       imageUrl: aboutImage

@@ -1,6 +1,6 @@
 import React from 'react';
 import { HERO_CONTENT} from "../constants";
-import Image from "../assets/about.png"; 
+import Image from "../assets/Image.png"; 
 import { motion } from "framer-motion";
 import Typewriter from 'typewriter-effect';
 
