@@ -15,7 +15,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 export default function Navbar() {
     const [drawerOpen, setDrawerOpen] = React.useState(false);
-    const [resumeLink, setResumeLink] = useState('https://drive.google.com/file/d/1pbnZGenx-eKVvzbZKmtubbcs5KHK1CDO/view?usp=sharing');
+    const [resumeLink, setResumeLink] = useState('https://1drv.ms/b/s!Agwy0EIWBat6j0qNI3AfqUjPa0f5');
 
     const toggleDrawer = (open) => (event) => {
         if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
